@@ -62,7 +62,7 @@ Player Image and Detail
     grid-gap: 15px;
     place-items: center;
     width: 1050px;
-    margin: 70px 216px 70px 216px;
+    margin: 100px;
 }
 .player-box{
     display: grid;
@@ -141,7 +141,7 @@ media queries
 /* Mobile Devices */
 @media only screen and (max-width:688px){
     .section-part{
-        width: 100%;
+        width: 150%;
     }
     header{
         display: grid;
@@ -150,8 +150,16 @@ media queries
         align-items: center;
         width: 350%;
     }
+    footer{
+        display: grid;
+        width: 250%;
+    }
+    .player-box{
+        width: 100%;
+    }
     .players{
     grid-template-columns: repeat(1, 1fr);
+    margin: 100px;
     }
 }
 @media (hover: hover){
