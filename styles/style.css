@@ -90,20 +90,6 @@ Player Image and Detail
     font-weight: normal;
     color: #6C6C6C;
 }
-/* ---------
-     Goals
------------- */
-/* .tables{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-table{
-    display: table;
-    vertical-align: middle;
-} */
-/* ---------------
-Footer Section
------------------- */
 footer{
     display: grid;
     place-items: center;
